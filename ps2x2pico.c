@@ -30,10 +30,6 @@
 #include "tusb.h"
 #include <stdlib.h>
 
-#define KBDAT 11
-#define LVPWR 13
-#define MSDAT 14
-
 uint8_t const led2ps2[] = { 0, 4, 1, 5, 2, 6, 3, 7 };
 uint8_t const mod2ps2[] = { 0x14, 0x12, 0x11, 0x1f, 0x14, 0x59, 0x11, 0x27 };
 uint8_t const hid2ps2[] = {
